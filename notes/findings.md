@@ -130,3 +130,54 @@ Merged with InsideAirbnb city-level summary stats.
 - Neighborhood-level story: activity clusters geographically in predictable ways
 - Most interesting finding: Austin defies the narrative — high STR activity, falling rents
 - Best visual: neighborhood maps — most intuitive
+
+
+## Modeling — LightGBM Activity Score Predictor
+
+**Setup:**
+- Target: neighborhood activity_score (0–1)
+- Features: avg_occupancy, median_price, commercial_pct, licensed_pct,
+  avg_availability, avg_reviews, occupancy_rate, city
+- Train/test split: 80/20 (476 train, 120 test)
+- Model: LightGBM Regressor with early stopping
+
+**Results:**
+- Baseline R²: 0.684, MAE: 0.049
+- Tuned R²: 0.708, MAE: 0.047
+- Best iteration: 138 (early stopping prevented overfitting)
+
+**SHAP Feature Importance (ranked):**
+1. avg_occupancy — dominant predictor by far
+2. commercial_pct — second most important
+3. occupancy_rate — correlated with avg_occupancy but adds signal
+4. median_price — moderate importance
+5. avg_availability — notable negative relationship
+6. avg_reviews — weak signal
+7. licensed_pct — weak, mixed signal
+8. city — least important, confirms neighborhood > city level factors
+
+**Key SHAP insights:**
+- High occupancy → strongly increases activity score
+- High commercial % → increases activity score
+- High availability → DECREASES activity score (counterintuitive — 
+  always-available listings are inactive/poorly managed, not highly active)
+- Licensed % → mixed direction, no clean relationship
+- City → clustered near zero, city identity barely affects prediction
+
+**Model limitations:**
+- Underpredicts high activity neighborhoods (actual > 0.6)
+- Small dataset (596 neighborhoods) limits model power
+- Missing features: tourism proximity, transit access, zoning data
+- Activity score is partially circular — built from occupancy which is 
+  also a feature — worth revisiting in future iterations
+
+**Interesting finding:**
+- City ranks last in importance — local neighborhood characteristics
+  (occupancy, commercial hosts) predict activity better than which 
+  city you're in. This is a strong, defensible finding for interviews.
+
+**Questions to follow up:**
+- Would adding tourism/POI proximity improve high-end predictions?
+- Can we predict rent growth directly instead of activity score?
+- Is the circular feature issue (occupancy in both features and target) 
+  affecting model validity?
