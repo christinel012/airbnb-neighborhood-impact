@@ -222,3 +222,6 @@ data/raw/
 data/processed/
 *.csv
 *.gz
+
+# Mac system files
+.DS_Store
