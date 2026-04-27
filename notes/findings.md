@@ -45,3 +45,12 @@ Cities: Los Angeles, New York City, Chicago, Seattle, Austin
   That's the key question
 
 
+## Within-City Activity Score
+
+- Seattle Belltown/Broadway highest scores — very high occupancy + commercial
+- Chicago Near North Side 91% commercial — almost entirely property managers
+- NYC scores lower overall — regulation suppressing activity even in hot neighborhoods
+- Austin zip codes still a problem — need to find neighborhood name mapping
+- Long Beach surprisingly high for LA — not a typical tourist area, worth investigating
+- Fort Hamilton NYC: small neighborhood, very high occupancy (147 days) — 
+  could be interesting outlier story
