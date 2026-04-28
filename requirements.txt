@@ -1,0 +1,11 @@
+pandas
+numpy
+plotly
+streamlit
+geopandas
+lightgbm
+shap
+scikit-learn
+requests
+beautifulsoup4
+python-dateutil
