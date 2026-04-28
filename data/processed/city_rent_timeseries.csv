@@ -1,0 +1,675 @@
+RegionID,RegionName,StateName,State,Metro,date,rent,city
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2015-01-31,2564.7978728656017,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2015-01-31,1742.044549140995,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2015-01-31,1511.013736164942,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2015-01-31,1140.5833930928543,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2015-01-31,1505.3438917745907,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2015-02-28,2579.092067458453,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2015-02-28,1754.7455373945625,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2015-02-28,1520.672938282949,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2015-02-28,1150.1652581572353,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2015-02-28,1518.04783926063,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2015-03-31,2600.7103290703694,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2015-03-31,1771.719187052446,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2015-03-31,1531.326323407755,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2015-03-31,1158.3444409176095,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2015-03-31,1543.005144433303,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2015-04-30,2626.717824571661,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2015-04-30,1783.403987299011,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2015-04-30,1542.610336164213,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2015-04-30,1164.3882708858075,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2015-04-30,1557.4202391195493,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2015-05-31,2648.5927672326407,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2015-05-31,1805.982931023832,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2015-05-31,1555.6612389515385,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2015-05-31,1175.3511587582454,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2015-05-31,1575.2287784977084,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2015-06-30,2668.9888921828383,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2015-06-30,1815.8382656521808,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2015-06-30,1568.7353643198398,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2015-06-30,1185.1056528345816,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2015-06-30,1588.7707086566631,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2015-07-31,2680.362891886007,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2015-07-31,1830.897475904609,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2015-07-31,1574.7052924896814,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2015-07-31,1191.828858045684,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2015-07-31,1604.0253311560868,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2015-08-31,2692.1197615022684,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2015-08-31,1837.141621514082,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2015-08-31,1577.5850226052871,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2015-08-31,1196.1975591996493,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2015-08-31,1615.433316857431,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2015-09-30,2698.362945652482,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2015-09-30,1855.421464811741,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2015-09-30,1570.854586416685,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2015-09-30,1195.0898389929828,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2015-09-30,1622.3496509956722,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2015-10-31,2696.725773581702,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2015-10-31,1864.7299875892863,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2015-10-31,1561.6793789466735,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2015-10-31,1190.7825884971628,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2015-10-31,1626.7426894357543,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2015-11-30,2683.229720331699,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2015-11-30,1867.9096657280077,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2015-11-30,1551.4566813541685,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2015-11-30,1186.1748568420471,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2015-11-30,1626.1860204850584,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2015-12-31,2667.3582576441745,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2015-12-31,1871.858092666008,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2015-12-31,1550.3705110739158,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2015-12-31,1190.782256625173,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2015-12-31,1620.9028584282096,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2016-01-31,2659.9779042558043,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2016-01-31,1885.9790687140528,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2016-01-31,1562.4829848594256,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2016-01-31,1196.454162066532,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2016-01-31,1624.060567040122,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2016-02-29,2662.5828450121694,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2016-02-29,1907.025211720515,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2016-02-29,1576.3016397583117,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2016-02-29,1200.517231398569,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2016-02-29,1634.5234250016251,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2016-03-31,2673.3713605505823,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2016-03-31,1922.7225983133872,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2016-03-31,1590.639160765939,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2016-03-31,1200.8850959637211,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2016-03-31,1644.8223397306776,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2016-04-30,2686.6095599277824,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2016-04-30,1931.2205008302844,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2016-04-30,1597.6628082963027,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2016-04-30,1210.966184240394,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2016-04-30,1661.1387399124308,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2016-05-31,2703.157909485635,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2016-05-31,1949.212956893211,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2016-05-31,1606.3056421501387,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2016-05-31,1220.4124930972157,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2016-05-31,1688.0398956025997,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2016-06-30,2719.0958230472033,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2016-06-30,1965.1846054319017,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2016-06-30,1616.3649782339062,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2016-06-30,1229.2967330845847,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2016-06-30,1714.2411658173337,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2016-07-31,2734.9862056952156,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2016-07-31,1978.0030451420284,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2016-07-31,1624.462216317476,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2016-07-31,1231.0159063225335,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2016-07-31,1729.6011044321442,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2016-08-31,2742.9712339047687,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2016-08-31,1975.6786375723009,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2016-08-31,1629.1906562426934,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2016-08-31,1229.3291093970902,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2016-08-31,1726.5511783357333,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2016-09-30,2743.5034384270984,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2016-09-30,1975.6427899631776,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2016-09-30,1620.3912249802402,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2016-09-30,1225.3679347414345,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2016-09-30,1724.473899741515,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2016-10-31,2733.379809728194,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2016-10-31,1978.9338508518576,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2016-10-31,1606.938991611294,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2016-10-31,1216.6287983628206,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2016-10-31,1723.8628249281244,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2016-11-30,2720.80019412279,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2016-11-30,1980.9152905294789,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2016-11-30,1589.0719081086868,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2016-11-30,1212.9994513748222,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2016-11-30,1712.7851008636217,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2016-12-31,2701.670897987066,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2016-12-31,1986.842198564633,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2016-12-31,1581.7269483892671,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2016-12-31,1215.1888561584904,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2016-12-31,1710.145618887634,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2017-01-31,2693.5631058044983,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2017-01-31,2002.472278088583,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2017-01-31,1588.8794252845764,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2017-01-31,1221.2959153369738,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2017-01-31,1715.1486715505564,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2017-02-28,2692.4992033338626,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2017-02-28,2018.893861625695,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2017-02-28,1607.8294509518764,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2017-02-28,1232.0733824072536,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2017-02-28,1740.2571932706394,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2017-03-31,2706.1689594613595,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2017-03-31,2044.56845974054,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2017-03-31,1629.456071290578,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2017-03-31,1245.4176871566683,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2017-03-31,1763.0024825523533,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2017-04-30,2723.2750767994644,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2017-04-30,2054.261126608244,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2017-04-30,1644.398987717447,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2017-04-30,1256.0413902455984,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2017-04-30,1782.5734685637394,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2017-05-31,2744.863272532248,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2017-05-31,2070.5222556144963,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2017-05-31,1656.7335394283607,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2017-05-31,1260.851428915112,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2017-05-31,1799.1771111440178,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2017-06-30,2763.714607132744,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2017-06-30,2077.4557289614936,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2017-06-30,1663.8512601234338,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2017-06-30,1265.638411453342,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2017-06-30,1816.5838246662263,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2017-07-31,2776.8909250242173,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2017-07-31,2089.8098110857127,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2017-07-31,1666.2019429915993,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2017-07-31,1264.4917663318924,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2017-07-31,1826.1359833860515,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2017-08-31,2781.004029624604,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2017-08-31,2097.487488081932,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2017-08-31,1659.6968754628876,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2017-08-31,1262.4934676314697,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2017-08-31,1832.9780697442377,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2017-09-30,2772.7662874439866,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2017-09-30,2099.3417594521625,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2017-09-30,1650.4304688721309,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2017-09-30,1254.5099263312604,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2017-09-30,1828.0246295986776,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2017-10-31,2752.580998856183,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2017-10-31,2103.0409148983053,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2017-10-31,1635.581652016805,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2017-10-31,1250.2452163192163,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2017-10-31,1816.1894332680104,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2017-11-30,2727.6977445949997,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2017-11-30,2108.0223612375244,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2017-11-30,1624.9877097045146,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2017-11-30,1249.5993697356007,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2017-11-30,1794.0790782017914,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2017-12-31,2709.857866437252,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2017-12-31,2116.4678597619,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2017-12-31,1622.1327270051167,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2017-12-31,1248.7423694988004,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2017-12-31,1785.7121023158795,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2018-01-31,2707.080074322571,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2018-01-31,2127.765868100538,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2018-01-31,1631.184012518736,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2018-01-31,1248.0245586777946,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2018-01-31,1785.1537173451256,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2018-02-28,2714.504647446516,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2018-02-28,2142.971222289654,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2018-02-28,1646.842469946313,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2018-02-28,1255.2133339470677,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2018-02-28,1794.99233237648,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2018-03-31,2732.664564059588,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2018-03-31,2150.6719542587603,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2018-03-31,1660.297463709431,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2018-03-31,1262.2880665334872,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2018-03-31,1803.8915382283792,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2018-04-30,2755.2586897861656,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2018-04-30,2157.6933083072536,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2018-04-30,1673.1450451865735,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2018-04-30,1274.170830508271,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2018-04-30,1819.9790897339567,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2018-05-31,2779.950664236625,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2018-05-31,2163.337422126576,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2018-05-31,1684.600681057948,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2018-05-31,1280.227249527752,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2018-05-31,1837.3388883546663,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2018-06-30,2801.1103624739803,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2018-06-30,2180.5881237074295,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2018-06-30,1696.392553961077,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2018-06-30,1290.769994510464,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2018-06-30,1855.0406797284463,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2018-07-31,2817.040923502559,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2018-07-31,2194.2791988765466,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2018-07-31,1701.8333558268898,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2018-07-31,1299.6455397361333,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2018-07-31,1862.8258708503668,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2018-08-31,2826.975800083926,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2018-08-31,2206.6738675708525,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2018-08-31,1697.3624924449066,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2018-08-31,1304.604277949799,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2018-08-31,1865.6852833046255,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2018-09-30,2827.903458574359,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2018-09-30,2210.16214555288,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2018-09-30,1681.2453513511032,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2018-09-30,1303.3768635525448,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2018-09-30,1856.945102392368,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2018-10-31,2816.1314440283886,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2018-10-31,2212.7184968738115,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2018-10-31,1664.7675096051842,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2018-10-31,1304.4860398448625,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2018-10-31,1842.809181625589,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2018-11-30,2799.6444372259252,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2018-11-30,2215.952490492217,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2018-11-30,1653.8442280929924,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2018-11-30,1310.423659970104,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2018-11-30,1832.1139466953537,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2018-12-31,2783.666827838918,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2018-12-31,2222.7481534114163,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2018-12-31,1655.676703870828,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2018-12-31,1312.3472073977466,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2018-12-31,1827.0597414352685,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2019-01-31,2778.97806989283,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2019-01-31,2227.0695350600604,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2019-01-31,1667.7806614346496,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2019-01-31,1314.437549777297,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2019-01-31,1829.9560456542513,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2019-02-28,2788.797777479189,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2019-02-28,2226.343819672978,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2019-02-28,1681.7494166099752,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2019-02-28,1321.1997160331352,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2019-02-28,1840.6977974329327,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2019-03-31,2807.6969883920415,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2019-03-31,2235.776485618696,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2019-03-31,1700.763053537427,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2019-03-31,1335.6090021425075,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2019-03-31,1853.6007788617671,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2019-04-30,2832.646852847283,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2019-04-30,2249.0595810777045,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2019-04-30,1715.5736351989308,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2019-04-30,1345.915649727121,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2019-04-30,1871.1347810125928,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2019-05-31,2858.63637551631,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2019-05-31,2265.0312903799163,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2019-05-31,1730.3233130564208,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2019-05-31,1349.979967550432,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2019-05-31,1882.432287840728,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2019-06-30,2885.292223300211,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2019-06-30,2276.588879315585,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2019-06-30,1738.418756914856,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2019-06-30,1354.7365322480196,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2019-06-30,1898.8052852630376,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2019-07-31,2905.7830025395274,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2019-07-31,2285.661894701881,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2019-07-31,1742.4692941820938,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2019-07-31,1362.8950624900565,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2019-07-31,1913.3621269600033,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2019-08-31,2918.447789444997,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2019-08-31,2292.4979961595973,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2019-08-31,1743.4772690172792,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2019-08-31,1372.012733477034,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2019-08-31,1924.495602343756,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2019-09-30,2920.353235981539,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2019-09-30,2295.1141066685327,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2019-09-30,1736.476934971028,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2019-09-30,1374.406930228216,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2019-09-30,1921.6590769169495,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2019-10-31,2914.5520260832463,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2019-10-31,2293.0410868145527,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2019-10-31,1726.772603809738,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2019-10-31,1374.627480188553,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2019-10-31,1913.900627773056,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2019-11-30,2896.763297833758,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2019-11-30,2291.122151665898,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2019-11-30,1715.469399720212,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2019-11-30,1370.4368909345749,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2019-11-30,1906.082280417817,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2019-12-31,2884.455097044824,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2019-12-31,2292.0199319703943,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2019-12-31,1709.5006216467816,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2019-12-31,1370.006232275857,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2019-12-31,1910.4519145551,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2020-01-31,2882.16914522217,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2020-01-31,2295.8837988645796,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2020-01-31,1719.5438276622458,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2020-01-31,1372.9719312394454,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2020-01-31,1922.3243560695664,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2020-02-29,2900.4442416770657,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2020-02-29,2303.661294894827,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2020-02-29,1734.371490097215,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2020-02-29,1377.328242118988,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2020-02-29,1934.878079752429,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2020-03-31,2915.219954714996,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2020-03-31,2301.6326483829835,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2020-03-31,1751.8863844970049,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2020-03-31,1386.2550535211108,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2020-03-31,1956.0174446855633,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2020-04-30,2904.192192391793,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2020-04-30,2291.0603849630033,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2020-04-30,1752.697156630362,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2020-04-30,1381.212449786533,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2020-04-30,1953.2182841371389,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2020-05-31,2875.833295315577,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2020-05-31,2276.347741327297,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2020-05-31,1750.5049728919485,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2020-05-31,1372.1148442065623,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2020-05-31,1945.494086202981,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2020-06-30,2834.904287594002,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2020-06-30,2268.6632292463223,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2020-06-30,1745.9766827245105,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2020-06-30,1362.5846921603163,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2020-06-30,1925.230143526308,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2020-07-31,2794.740462152759,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2020-07-31,2267.108905928851,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2020-07-31,1742.613959790783,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2020-07-31,1363.4067008772845,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2020-07-31,1917.1734743671857,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2020-08-31,2729.250860847106,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2020-08-31,2261.4532025083663,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2020-08-31,1730.3691948038463,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2020-08-31,1364.028263224796,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2020-08-31,1902.2685839579935,seattle
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2020-09-30,2248.639460573687,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2020-09-30,1705.5027181025423,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2020-09-30,1354.3641838564083,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2020-09-30,1862.8446746566324,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2020-10-31,2593.6244370382165,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2020-10-31,2235.566138981503,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2020-10-31,1670.473530983312,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2020-10-31,1345.8801191644443,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2020-10-31,1809.3022471351503,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2020-11-30,2547.148461992685,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2020-11-30,2228.421481426364,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2020-11-30,1641.6050314906197,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2020-11-30,1341.6249643025265,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2020-11-30,1750.80273096717,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2020-12-31,2521.684232367043,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2020-12-31,2224.6359126598977,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2020-12-31,1630.0661967241986,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2020-12-31,1344.340476494631,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2020-12-31,1709.023774574841,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2021-01-31,2512.566289295373,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2021-01-31,2230.277847880223,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2021-01-31,1633.5027370986795,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2021-01-31,1353.8189344118855,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2021-01-31,1699.2775924916757,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2021-02-28,2528.0135672990527,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2021-02-28,2233.8382773873805,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2021-02-28,1649.297131951177,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2021-02-28,1370.0058665702736,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2021-02-28,1710.1072113560522,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2021-03-31,2556.6900983033456,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2021-03-31,2241.838621926991,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2021-03-31,1671.403183270746,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2021-03-31,1391.864760631178,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2021-03-31,1740.563120369325,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2021-04-30,2597.869969596172,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2021-04-30,2249.6082865652093,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2021-04-30,1703.309587279164,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2021-04-30,1420.9186687676709,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2021-04-30,1775.3327679890108,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2021-05-31,2654.6173222882917,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2021-05-31,2266.6179152884138,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2021-05-31,1734.9011407365924,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2021-05-31,1458.522763485142,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2021-05-31,1823.2397790595164,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2021-06-30,2726.179446299855,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2021-06-30,2297.260052609463,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2021-06-30,1762.7840254423063,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2021-06-30,1507.007070522288,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2021-06-30,1880.5091597654712,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2021-07-31,2808.7055039642205,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2021-07-31,2335.4968966101223,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2021-07-31,1780.9304512729925,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2021-07-31,1557.4757816365416,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2021-07-31,1936.45690511945,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2021-08-31,2883.626173130381,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2021-08-31,2381.4044904018133,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2021-08-31,1792.0086560691109,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2021-08-31,1603.714779525039,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2021-08-31,1982.607497493657,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2021-09-30,2944.943239285573,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2021-09-30,2415.0966733416963,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2021-09-30,1794.179177499636,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2021-09-30,1634.138678452047,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2021-09-30,2004.281369233042,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2021-10-31,2980.433737624004,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2021-10-31,2436.993871476258,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2021-10-31,1790.7156642533844,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2021-10-31,1645.028704866715,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2021-10-31,2004.385510542986,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2021-11-30,3008.536886322066,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2021-11-30,2449.1842689176087,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2021-11-30,1786.7710054384168,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2021-11-30,1643.48145062503,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2021-11-30,1993.6065296088652,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2021-12-31,3027.8486004308047,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2021-12-31,2468.175373783818,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2021-12-31,1792.4791689745216,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2021-12-31,1646.4316750744294,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2021-12-31,1986.1105106803436,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2022-01-31,3058.2175055527323,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2022-01-31,2488.447094035988,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2022-01-31,1808.6519607703283,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2022-01-31,1648.48370104621,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2022-01-31,1989.4598231102136,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2022-02-28,3093.853333697423,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2022-02-28,2512.1494713047696,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2022-02-28,1828.4900617633152,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2022-02-28,1664.80617315187,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2022-02-28,1998.7203905163328,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2022-03-31,3138.8866860617013,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2022-03-31,2528.692440119956,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2022-03-31,1852.7989288023955,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2022-03-31,1678.280794417709,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2022-03-31,2016.1526931471192,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2022-04-30,3185.9134753731237,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2022-04-30,2551.5591362519745,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2022-04-30,1879.102042114882,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2022-04-30,1704.4292329577606,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2022-04-30,2036.0508194719216,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2022-05-31,3243.8315696865448,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2022-05-31,2573.129418756571,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2022-05-31,1907.10976077769,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2022-05-31,1726.975789468457,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2022-05-31,2064.6229984007778,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2022-06-30,3305.6696045524764,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2022-06-30,2596.587315155788,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2022-06-30,1928.4318523340276,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2022-06-30,1755.082507617549,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2022-06-30,2096.2088819427413,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2022-07-31,3357.949529549316,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2022-07-31,2618.350056920342,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2022-07-31,1944.126263893059,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2022-07-31,1779.1341304590906,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2022-07-31,2126.242523788432,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2022-08-31,3390.439751121858,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2022-08-31,2634.1712359113426,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2022-08-31,1950.4213101919925,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2022-08-31,1781.634611993898,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2022-08-31,2141.4678175100644,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2022-09-30,3396.076904699283,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2022-09-30,2645.5450049405003,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2022-09-30,1948.427108527291,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2022-09-30,1767.981244706909,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2022-09-30,2133.8444351693374,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2022-10-31,3379.688773741514,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2022-10-31,2640.45870807085,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2022-10-31,1940.67803092918,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2022-10-31,1742.264318810044,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2022-10-31,2109.5327311232563,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2022-11-30,3341.188163083794,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2022-11-30,2634.4119014231533,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2022-11-30,1934.028844792308,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2022-11-30,1719.8725104360212,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2022-11-30,2074.9664819541163,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2022-12-31,3310.425881300652,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2022-12-31,2626.9261389500034,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2022-12-31,1933.2454979525048,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2022-12-31,1705.0659925796458,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2022-12-31,2049.5595843355372,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2023-01-31,3302.9801282295193,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2023-01-31,2626.111539814097,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2023-01-31,1943.2345082453137,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2023-01-31,1699.9256048286468,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2023-01-31,2039.2738486353512,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2023-02-28,3316.396102215117,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2023-02-28,2630.888716555451,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2023-02-28,1959.5334058517528,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2023-02-28,1702.9510287459725,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2023-02-28,2043.9068414178116,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2023-03-31,3342.2033933863727,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2023-03-31,2644.0512698691105,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2023-03-31,1980.6145911386393,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2023-03-31,1715.5939951230878,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2023-03-31,2061.401842499105,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2023-04-30,3377.061921052516,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2023-04-30,2653.904841409081,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2023-04-30,2000.7243946850397,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2023-04-30,1718.224088250646,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2023-04-30,2072.687692696629,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2023-05-31,3418.9687470830354,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2023-05-31,2658.101265834697,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2023-05-31,2024.7187081149077,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2023-05-31,1722.5815063922194,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2023-05-31,2091.519409436046,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2023-06-30,3459.5135375596483,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2023-06-30,2655.897676508869,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2023-06-30,2044.7629580119817,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2023-06-30,1719.7674572993085,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2023-06-30,2106.4630923102623,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2023-07-31,3488.377554767495,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2023-07-31,2657.340583520819,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2023-07-31,2056.7685851181136,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2023-07-31,1720.1467453821872,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2023-07-31,2126.4325179150596,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2023-08-31,3500.2430797308084,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2023-08-31,2661.881759245477,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2023-08-31,2060.274551821863,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2023-08-31,1708.6355874703825,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2023-08-31,2137.8726247218888,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2023-09-30,3496.891569125099,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2023-09-30,2663.874370144496,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2023-09-30,2050.1085594991773,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2023-09-30,1688.367191826923,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2023-09-30,2134.654932344304,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2023-10-31,3472.770481073669,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2023-10-31,2658.8598371310577,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2023-10-31,2035.9424743939596,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2023-10-31,1671.2296052748927,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2023-10-31,2114.812584589533,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2023-11-30,3438.345723009857,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2023-11-30,2645.0050477530294,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2023-11-30,2023.054318842882,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2023-11-30,1656.2317985757106,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2023-11-30,2086.4090779098065,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2023-12-31,3410.997159290288,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2023-12-31,2632.2380723867477,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2023-12-31,2024.753937525701,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2023-12-31,1649.915643067686,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2023-12-31,2072.8035391050616,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2024-01-31,3410.0509169446673,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2024-01-31,2635.340578166214,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2024-01-31,2037.232689253756,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2024-01-31,1639.6350478570448,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2024-01-31,2078.36058396129,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2024-02-29,3433.0705436814906,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2024-02-29,2644.2144493383394,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2024-02-29,2058.1803414912633,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2024-02-29,1636.7944118822245,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2024-02-29,2096.123521379079,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2024-03-31,3472.355342426397,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2024-03-31,2659.1235561990284,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2024-03-31,2077.892032870875,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2024-03-31,1634.2823061001816,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2024-03-31,2110.9736344307184,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2024-04-30,3512.683396401784,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2024-04-30,2667.9076411786737,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2024-04-30,2100.9584035666912,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2024-04-30,1638.7938842422495,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2024-04-30,2124.277173031376,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2024-05-31,3555.4606199777213,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2024-05-31,2678.5532642817425,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2024-05-31,2119.0902031193937,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2024-05-31,1645.781005073493,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2024-05-31,2140.934666541097,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2024-06-30,3591.599994245213,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2024-06-30,2686.495484355308,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2024-06-30,2136.4219701545867,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2024-06-30,1648.37630475397,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2024-06-30,2155.473911851788,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2024-07-31,3613.220055563857,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2024-07-31,2694.734334759439,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2024-07-31,2143.7093460250444,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2024-07-31,1645.0962209942168,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2024-07-31,2166.097886396647,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2024-08-31,3618.4062899850906,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2024-08-31,2699.531982668046,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2024-08-31,2141.288669694543,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2024-08-31,1632.646324610934,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2024-08-31,2168.291937101162,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2024-09-30,3602.465496431436,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2024-09-30,2703.1943061644542,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2024-09-30,2134.0298520266133,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2024-09-30,1619.4196178022871,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2024-09-30,2158.2444712202255,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2024-10-31,3580.9029270790934,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2024-10-31,2699.796559341363,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2024-10-31,2125.2666713044027,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2024-10-31,1603.255429663635,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2024-10-31,2146.650509085716,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2024-11-30,3558.6861862807837,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2024-11-30,2694.3240148842538,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2024-11-30,2121.6158272149187,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2024-11-30,1589.1486310825446,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2024-11-30,2136.4988884091917,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2024-12-31,3546.133604372244,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2024-12-31,2686.4649925319773,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2024-12-31,2121.8447034132114,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2024-12-31,1579.4378350352467,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2024-12-31,2134.5613410087935,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2025-01-31,3551.8476973553943,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2025-01-31,2708.54796180233,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2025-01-31,2134.0336801805697,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2025-01-31,1575.802717274944,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2025-01-31,2140.090623043296,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2025-02-28,3578.846237980831,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2025-02-28,2731.260664777281,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2025-02-28,2157.1120447815792,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2025-02-28,1578.294251897656,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2025-02-28,2150.5765196008388,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2025-03-31,3619.1544852544735,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2025-03-31,2755.573682121851,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2025-03-31,2185.416052520367,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2025-03-31,1583.5708043111588,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2025-03-31,2167.0792683345253,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2025-04-30,3662.343332132709,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2025-04-30,2749.753437806434,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2025-04-30,2212.954701751135,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2025-04-30,1590.0390895850458,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2025-04-30,2182.77234792488,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2025-05-31,3697.253888567805,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2025-05-31,2750.3290988042077,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2025-05-31,2238.982500184492,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2025-05-31,1597.2318144669198,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2025-05-31,2199.455542685967,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2025-06-30,3745.868003036856,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2025-06-30,2749.7376528200166,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2025-06-30,2263.0185830657365,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2025-06-30,1597.1286336011449,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2025-06-30,2218.9032684883027,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2025-07-31,3790.584085687109,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2025-07-31,2754.296085410509,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2025-07-31,2276.4078331227724,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2025-07-31,1587.5970971074617,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2025-07-31,2232.908025367818,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2025-08-31,3823.868735659254,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2025-08-31,2756.0641013653462,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2025-08-31,2279.207766420813,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2025-08-31,1574.1887458986666,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2025-08-31,2235.3324268974247,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2025-09-30,3817.992380917635,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2025-09-30,2757.710190945201,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2025-09-30,2275.434628324523,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2025-09-30,1560.6967724345411,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2025-09-30,2231.4562664527957,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2025-10-31,3799.741226715976,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2025-10-31,2755.022457786896,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2025-10-31,2265.6048741146524,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2025-10-31,1551.4002870219228,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2025-10-31,2219.524902845007,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2025-11-30,3767.8990042600944,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2025-11-30,2745.2082411388706,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2025-11-30,2260.0207273414226,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2025-11-30,1539.0281436564694,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2025-11-30,2210.06476238252,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2025-12-31,3750.24937384824,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2025-12-31,2732.923807488658,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2025-12-31,2257.6971491761524,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2025-12-31,1532.2155802935797,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2025-12-31,2198.0811826401773,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2026-01-31,3744.778094587956,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2026-01-31,2732.2355664243714,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2026-01-31,2274.2948192561475,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2026-01-31,1530.300199422943,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2026-01-31,2190.354629959382,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2026-02-28,3768.9028866297062,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2026-02-28,2739.1692699631667,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2026-02-28,2298.8687632816755,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2026-02-28,1537.3206150033748,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2026-02-28,2190.3072501822207,seattle
+6181,New York,NY,NY,"New York-Newark-Jersey City, NY-NJ-PA",2026-03-31,3810.9490396395545,new-york-city
+12447,Los Angeles,CA,CA,"Los Angeles-Long Beach-Anaheim, CA",2026-03-31,2753.1722997226266,los-angeles
+17426,Chicago,IL,IL,"Chicago-Naperville-Elgin, IL-IN-WI",2026-03-31,2327.7486087519087,chicago
+10221,Austin,TX,TX,"Austin-Round Rock-Georgetown, TX",2026-03-31,1542.1648560298102,austin
+16037,Seattle,WA,WA,"Seattle-Tacoma-Bellevue, WA",2026-03-31,2193.3671202562255,seattle

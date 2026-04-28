@@ -217,11 +217,13 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Data files
-data/raw/
-data/processed/
-*.csv
-*.gz
+# Data files - raw only
+data/raw/**/*.csv.gz
+data/raw/**/*.csv
+
+# Keep processed data and geojson
+!data/processed/
+!data/raw/*/neighbourhoods.geojson
 
 # Mac system files
 .DS_Store
