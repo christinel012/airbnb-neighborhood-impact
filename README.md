@@ -58,6 +58,7 @@ The findings challenge simple narratives: the relationship between short-term re
 
 ## Project Structure
 
+```
 airbnb-neighborhood-impact/
 ├── app/
 │   ├── app.py                    # Streamlit dashboard
@@ -74,6 +75,7 @@ airbnb-neighborhood-impact/
 ├── src/
 │   └── data_loader.py            # Reusable data ingestion functions
 └── requirements.txt
+```
 
 ---
 

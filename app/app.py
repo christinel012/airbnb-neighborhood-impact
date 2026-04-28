@@ -94,7 +94,11 @@ st.markdown(f"""
 <div class="hero animate-in">
     <div style="display:flex;gap:2.5rem;align-items:center">
         <div style="flex:1.2">
-            <div class="hero-eyebrow">Data Analysis · 5 US Cities · 2025–2026</div>
+            <div class="hero-eyebrow">Data Analysis · 5 US Cities · 2015–2026</div>
+            <div style="font-size:0.8rem;color:#8ba3bc;margin-bottom:0.8rem;font-weight:400">
+                by <span style="color:#e0e8f0;font-weight:500">Christine Li</span> · 
+                UC Davis Statistics '26 · UC Berkeley MAnalytics '27
+            </div>
             <div class="hero-title">Airbnb & the<br><span>Housing Crisis</span></div>
             <div class="hero-body">
                 Short-term rentals have reshaped American cities over the past decade. 
@@ -281,11 +285,13 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # --- Tabs ---
-tab1, tab2, tab3, tab4 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
     "🏙️  City Overview",
     "🗺️  Neighborhood Map",
     "🏆  Top Neighborhoods",
-    "🤖  Model Insights"
+    "🤖  Model Insights",
+    "📋  Summary",
+    "👩‍💻  About"
 ])
 
 # ── Tab 1: City Overview ──
@@ -468,8 +474,8 @@ with tab1:
         st.plotly_chart(fig_overlay, use_container_width=True)
 
     st.divider()
-    st.markdown('<div class="section-label">City Summary Table</div>', unsafe_allow_html=True)
 
+    st.markdown('<div class="section-label">City Summary</div>', unsafe_allow_html=True)
     table_rows = []
     for _, row in city_analysis.iterrows():
         growth = row['rent_growth_3yr_pct']
@@ -489,7 +495,7 @@ with tab1:
         )
 
     headers = ['City', 'Listings', 'Avg Occupancy', 'Median Price',
-               'Commercial %', 'Licensed %', 'Current Rent', '3yr Growth']
+            'Commercial %', 'Licensed %', 'Current Rent', '3yr Growth']
     header_html = ''.join(
         f"<th style='padding:0.9rem 1rem;text-align:{'left' if i==0 else 'right'};"
         f"color:#8ba3bc;font-weight:500;font-size:0.72rem;"
@@ -507,6 +513,51 @@ with tab1:
         f"</table></div>",
         unsafe_allow_html=True
     )
+
+    st.markdown("""
+    <div style="display:flex;gap:0.8rem;flex-wrap:wrap;margin-top:1rem">
+        <div class="finding-card" style="flex:1;min-width:180px;margin-bottom:0">
+            <div style="font-weight:600;color:#fff;margin-bottom:0.25rem;font-size:0.82rem">
+                📉 Austin is the outlier
+            </div>
+            <div class="finding-text" style="font-size:0.8rem">
+                Only city with falling rents (-10.1%) — a housing supply boom absorbed demand faster than it grew.
+            </div>
+        </div>
+        <div class="finding-card" style="flex:1;min-width:180px;margin-bottom:0">
+            <div style="font-weight:600;color:#fff;margin-bottom:0.25rem;font-size:0.82rem">
+                🏢 Chicago most commercial
+            </div>
+            <div class="finding-text" style="font-size:0.8rem">
+                69% commercial hosts — highest in sample. Property managers dominate, not individuals.
+            </div>
+        </div>
+        <div class="finding-card" style="flex:1;min-width:180px;margin-bottom:0">
+            <div style="font-weight:600;color:#fff;margin-bottom:0.25rem;font-size:0.82rem">
+                🌊 LA largest market
+            </div>
+            <div class="finding-text" style="font-size:0.8rem">
+                45,886 listings — biggest market in the sample. Moderate rent growth (+4.1%) despite scale, only 28% licensed.
+            </div>
+        </div>
+                <div class="finding-card" style="flex:1;min-width:180px;margin-bottom:0">
+            <div style="font-weight:600;color:#fff;margin-bottom:0.25rem;font-size:0.82rem">
+                🏙️ NYC most expensive
+            </div>
+            <div class="finding-text" style="font-size:0.8rem">
+                $3,811/mo and still climbing +14% — strict 2023 STR regulations haven't stopped rent growth.
+            </div>
+        </div>
+        <div class="finding-card" style="flex:1;min-width:180px;margin-bottom:0">
+            <div style="font-weight:600;color:#fff;margin-bottom:0.25rem;font-size:0.82rem">
+                📋 Seattle most compliant
+            </div>
+            <div class="finding-text" style="font-size:0.8rem">
+                83% licensed — far above LA (28%) and NYC (15%). Strong enforcement, rents still up 6.4%.
+            </div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 # ── Tab 2: Neighborhood Map ──
 with tab2:
@@ -565,11 +616,26 @@ with tab2:
                     'lon': city_centers[selected_city]['lon']},
             opacity=0.8,
             labels={selected_metric: metric_options[selected_metric]},
-            hover_data=['total_listings', 'avg_occupancy',
-                       'commercial_pct', 'activity_score']
+            hover_data={
+                'neighbourhood_cleansed': False,
+                'total_listings': True,
+                'avg_occupancy': True,
+                'commercial_pct': True,
+                'activity_score': True
+            }
+        )
+        fig3.update_traces(
+            hovertemplate=(
+                "<b>%{location}</b><br>"
+                "Activity Score: %{customdata[3]:.3f}<br>"
+                "Listings: %{customdata[0]:.0f}<br>"
+                "Avg Occupancy: %{customdata[1]:.0f} days<br>"
+                "Commercial: %{customdata[2]:.0%}<br>"
+                "<extra></extra>"
+            )
         )
         fig3.update_layout(
-            height=580,
+            height=600,
             margin=dict(l=0, r=0, t=0, b=0),
             paper_bgcolor='rgba(0,0,0,0)',
             coloraxis_colorbar=dict(
@@ -580,13 +646,40 @@ with tab2:
         )
         st.plotly_chart(fig3, use_container_width=True)
 
+        # City stats below map
+        st.markdown('<div class="section-label" style="margin-top:1rem">City Stats</div>', 
+                    unsafe_allow_html=True)
+        s1, s2, s3, s4 = st.columns(4)
+        stat_data = [
+            (s1, "Neighborhoods", f"{len(city_nb)}"),
+            (s2, "Total Listings", f"{city_nb['total_listings'].sum():,.0f}"),
+            (s3, "Avg Occupancy", f"{city_nb['avg_occupancy'].mean():.0f} days"),
+            (s4, "Avg Activity Score", f"{city_nb['activity_score'].mean():.3f}"),
+        ]
+        for i, (col, label, value) in enumerate(stat_data):
+            with col:
+                st.markdown(f"""
+                <div class="metric-card animate-in" 
+                     style="padding:0.9rem 1rem;margin-bottom:0;
+                            animation-delay:{i*0.1}s">
+                    <div class="metric-city">{label}</div>
+                    <div style="font-family:'Playfair Display',serif;
+                                font-size:1.4rem;color:#fff">{value}</div>
+                </div>
+                """, unsafe_allow_html=True)
+
     with col_info:
         # City photo
         st.markdown(f"""
-        <div class="city-img-card animate-in">
-            <img src="{city_photos[selected_city]}" alt="{city_labels[selected_city]}"/>
-            <div class="city-img-overlay">
-                <div style="font-family:'Playfair Display',serif;font-size:1.1rem;
+        <div class="animate-in" style="border-radius:12px;overflow:hidden;
+                    height:110px;margin-bottom:1rem;position:relative">
+            <img src="{city_photos[selected_city]}" 
+                 style="width:100%;height:100%;object-fit:cover;
+                        filter:brightness(0.7);display:block;
+                        transition:filter 0.3s ease"/>
+            <div style="position:absolute;bottom:0;left:0;right:0;padding:0.7rem;
+                        background:linear-gradient(transparent,rgba(0,0,0,0.85))">
+                <div style="font-family:'Playfair Display',serif;font-size:1rem;
                             color:#fff;font-weight:700">{city_labels[selected_city]}</div>
             </div>
         </div>
@@ -607,25 +700,6 @@ with tab2:
                     Listings: {row['total_listings']:.0f} · 
                     Occ: {row['avg_occupancy']:.0f}d
                 </div>
-            </div>
-            """, unsafe_allow_html=True)
-
-        st.markdown('<div class="section-label" style="margin-top:1rem">City Stats</div>',
-                    unsafe_allow_html=True)
-        stats = [
-            ("Neighborhoods shown", f"{len(city_nb)}"),
-            ("Total listings", f"{city_nb['total_listings'].sum():,.0f}"),
-            ("Avg occupancy", f"{city_nb['avg_occupancy'].mean():.0f} days"),
-            ("Avg activity score", f"{city_nb['activity_score'].mean():.3f}"),
-        ]
-        for label, value in stats:
-            st.markdown(f"""
-            <div style="display:flex;justify-content:space-between;
-                        padding:0.5rem 0;
-                        border-bottom:1px solid rgba(255,255,255,0.05);
-                        font-size:0.83rem">
-                <span style="color:#8ba3bc">{label}</span>
-                <span style="color:#fff;font-weight:500">{value}</span>
             </div>
             """, unsafe_allow_html=True)
 
@@ -681,70 +755,121 @@ with tab2:
 with tab3:
     st.markdown('<div class="section-intro">The five highest-activity neighborhoods in each city, ranked by the composite activity score. Activity score combines listing density (40%), average occupancy (40%), and commercial host rate (20%), normalized within each city for fair comparison.</div>', unsafe_allow_html=True)
 
+    st.markdown('<div style="font-size:1rem;color:#555;margin-bottom:1.5rem">* Austin uses postal codes as neighborhood boundaries</div>', unsafe_allow_html=True)
+
+    city_colors = {
+        'los-angeles': '#ff6b6b',
+        'new-york-city': '#74c0fc',
+        'chicago': '#ffd43b',
+        'seattle': '#da77f2',
+        'austin': '#69db7c'
+    }
+
     top_neighborhoods = (
         neighborhood
         .groupby('city')
         .apply(lambda x: x.nlargest(5, 'activity_score'), include_groups=False)
         .reset_index()
     )
-    top_neighborhoods['city_label'] = top_neighborhoods['city'].map(city_labels)
 
-    fig4 = px.bar(
-        top_neighborhoods,
-        x='activity_score',
-        y='neighbourhood_cleansed',
-        color='city_label',
-        facet_col='city_label',
-        facet_col_wrap=2,
-        labels={'activity_score': '', 'neighbourhood_cleansed': '',
-                'city_label': 'City'},
-        color_discrete_sequence=['#ff6b6b', '#ffd43b', '#69db7c',
-                                  '#74c0fc', '#da77f2'],
-        height=950
-    )
-    fig4.for_each_annotation(lambda a: a.update(
-        text=a.text.split("=")[-1],
-        font=dict(color='#e0e8f0', size=13)
-    ))
-    fig4.update_layout(
-        **PLOTLY_THEME,
-        showlegend=False,
-        title=dict(
-            text='* Austin uses postal codes as neighborhood boundaries',
-            font=dict(size=11, color='#666'), x=0
+    cities_list = list(city_labels.keys())
+    
+    # Render in pairs
+    col_sel, _ = st.columns([2, 3])
+    with col_sel:
+        st.markdown('<div class="section-label">Select Cities to Compare</div>', unsafe_allow_html=True)
+        selected_cities = st.multiselect(
+            "",
+            options=list(city_labels.keys()),
+            default=list(city_labels.keys())[:4],
+            format_func=lambda x: city_labels[x],
+            label_visibility='collapsed'
         )
-    )
-    fig4.update_yaxes(matches=None, showticklabels=True)
-    fig4.update_xaxes(matches=None)
-    fig4.add_annotation(
-        text="Activity Score", xref="paper", yref="paper",
-        x=0.5, y=-0.04, showarrow=False,
-        font=dict(size=12, color='#8ba3bc')
-    )
-    st.plotly_chart(fig4, use_container_width=True)
 
-    # Key observations
+    if not selected_cities:
+        st.markdown('<div class="finding-text" style="color:#555;padding:2rem 0">Select at least one city above.</div>', unsafe_allow_html=True)
+    else:
+        for i in range(0, len(selected_cities), 2):
+            cols = st.columns(2) if len(selected_cities[i:i+2]) == 2 else st.columns([1, 1])
+            for j, city in enumerate(selected_cities[i:i+2]):
+                with cols[j]:
+                    city_data = top_neighborhoods[top_neighborhoods['city'] == city].sort_values('activity_score')
+                    color = city_colors[city]
+
+                    r, g, b = int(color[1:3],16), int(color[3:5],16), int(color[5:7],16)
+
+                    fig = go.Figure()
+                    fig.add_trace(go.Bar(
+                        x=city_data['activity_score'],
+                        y=city_data['neighbourhood_cleansed'],
+                        orientation='h',
+                        marker=dict(
+                            color=city_data['activity_score'],
+                            colorscale=[[0, f'rgba({r},{g},{b},0.3)'], [1, color]],
+                            line=dict(width=0)
+                        ),
+                        hovertemplate='<b>%{y}</b><br>Activity Score: %{x:.3f}<extra></extra>'
+                    ))
+
+                    fig.update_layout(
+                        template='plotly_dark',
+                        paper_bgcolor='rgba(21,34,54,0.5)',
+                        plot_bgcolor='rgba(21,34,54,0.5)',
+                        font=dict(family='Inter', color='#e0e8f0'),
+                        height=260,
+                        margin=dict(l=0, r=20, t=40, b=20),
+                        title=dict(
+                            text=city_labels[city],
+                            font=dict(family='Playfair Display', size=16, color='#ffffff'),
+                            x=0
+                        ),
+                        bargap=0.3,
+                    )
+                    fig.update_xaxes(range=[0, 1], showgrid=True,
+                                     gridcolor='rgba(255,255,255,0.05)',
+                                     tickfont=dict(size=10, color='#8ba3bc'))
+                    fig.update_yaxes(showgrid=False,
+                                     tickfont=dict(size=11, color='#e0e8f0'))
+
+                    st.markdown(f"""
+                    <div class="metric-card animate-in" style="padding:0;overflow:hidden;
+                                margin-bottom:0;animation-delay:{i*0.1+j*0.15}s">
+                    """, unsafe_allow_html=True)
+                    st.plotly_chart(fig, use_container_width=True)
+                    st.markdown('</div>', unsafe_allow_html=True)
+
     st.divider()
-    st.markdown('<div class="section-label">Key Observations</div>',
-                unsafe_allow_html=True)
+    st.markdown('<div class="section-label">Key Observations</div>', unsafe_allow_html=True)
 
     obs_cols = st.columns(3)
     observations = [
-        ("🏙️ Seattle dominates", "Belltown and Broadway top their city with scores above 0.85 — the highest in the sample. Dense urban neighborhoods with high occupancy and commercial hosts."),
-        ("🏘️ Bedford-Stuyvesant", "NYC's top neighborhood is a historically Black area undergoing rapid gentrification — high Airbnb activity here has real displacement implications."),
-        ("🌊 Long Beach surprises", "LA's top neighborhood isn't Hollywood or Venice — it's Long Beach, suggesting Airbnb pressure extends well beyond traditional tourist zones."),
+        ("🏙️", "Seattle dominates",
+         "Belltown (0.89) and Broadway (0.84) top the sample. Seattle's compact urban core, high tourism, and strong short-term rental demand create intense concentration in just a few neighborhoods. Despite this, only moderate rent growth (6.4%) — suggesting supply has kept pace."),
+        ("🏘️", "Bedford-Stuyvesant, NYC",
+         "NYC's highest-activity neighborhood is not Midtown or SoHo — it's Bed-Stuy, a historically Black neighborhood that has undergone rapid gentrification since 2015. High Airbnb density here directly competes with long-term housing for existing residents."),
+        ("🌊", "Long Beach surprises LA",
+         "The top LA neighborhood by activity score isn't Hollywood or Venice — it's Long Beach. This suggests Airbnb pressure in LA has spread well beyond traditional tourist zones into working-class coastal communities."),
+        ("🏢", "Near North Side, Chicago",
+         "Chicago's second-ranked neighborhood has a 91% commercial host rate — almost entirely property managers, not individuals. This level of commercialization raises serious questions about how many units have been permanently converted from long-term to short-term rental."),
+        ("📋", "NYC regulations not working as expected",
+         "Despite Local Law 18 (2023) requiring host registration, NYC's top neighborhoods still show significant Airbnb activity. Only 15% of listings are licensed citywide — suggesting widespread non-compliance rather than market suppression."),
+        ("🗺️", "Austin zip codes tell a different story",
+         "Austin's top areas (78702, 78704) correspond to East Austin and South Congress — historically working-class neighborhoods now undergoing rapid change. The zip code granularity obscures neighborhood-level displacement that likely exists."),
     ]
-    for i, (title, text) in enumerate(observations):
-        with obs_cols[i]:
-            st.markdown(f"""
-            <div class="metric-card animate-in" style="animation-delay:{i*0.1}s">
-                <div style="font-size:1.2rem;margin-bottom:0.5rem">{title.split()[0]}</div>
-                <div style="font-weight:600;color:#fff;margin-bottom:0.5rem;font-size:0.9rem">
-                    {' '.join(title.split()[1:])}
+
+    for i in range(0, len(observations), 3):
+        cols = st.columns(3)
+        for j, (icon, title, text) in enumerate(observations[i:i+3]):
+            with cols[j]:
+                st.markdown(f"""
+                <div class="metric-card animate-in" 
+                     style="height:100%;animation-delay:{i*0.05+j*0.1}s">
+                    <div style="font-size:1.5rem;margin-bottom:0.5rem">{icon}</div>
+                    <div style="font-weight:600;color:#fff;margin-bottom:0.5rem;
+                                font-size:0.88rem">{title}</div>
+                    <div class="finding-text">{text}</div>
                 </div>
-                <div class="finding-text">{text}</div>
-            </div>
-            """, unsafe_allow_html=True)
+                """, unsafe_allow_html=True)
 
 # ── Tab 4: Model Insights ──
 with tab4:
@@ -940,3 +1065,253 @@ with tab4:
                 <div class="finding-text">{text}</div>
             </div>
             """, unsafe_allow_html=True)
+
+# ── Tab 5: Summary ──
+with tab5:
+    st.markdown('<div class="section-intro">A consolidated overview of the research questions, methodology, key findings, and directions for future work.</div>', unsafe_allow_html=True)
+
+    # Research questions
+    st.markdown('<div class="section-label">Research Questions</div>', unsafe_allow_html=True)
+    q_cols = st.columns(3)
+    questions = [
+        ("❓", "Geographic clustering",
+         "Which neighborhoods across LA, NYC, Chicago, Seattle, and Austin have the highest Airbnb activity — and do high-activity neighborhoods cluster geographically?"),
+        ("❓", "Housing affordability link",
+         "Does neighborhood-level Airbnb activity correlate with rising long-term rents? Is the relationship consistent across cities with different regulatory environments?"),
+        ("❓", "What drives activity?",
+         "Which listing and host characteristics best predict neighborhood-level Airbnb activity? Can a model identify the levers cities could pull to reduce pressure?"),
+    ]
+    for i, (icon, title, text) in enumerate(questions):
+        with q_cols[i]:
+            st.markdown(f"""
+            <div class="metric-card animate-in" style="animation-delay:{i*0.1}s;height:100%">
+                <div style="font-size:1.5rem;margin-bottom:0.5rem">{icon}</div>
+                <div style="font-weight:600;color:#ff6b6b;margin-bottom:0.5rem;
+                            font-size:0.88rem">{title}</div>
+                <div class="finding-text">{text}</div>
+            </div>
+            """, unsafe_allow_html=True)
+
+    st.divider()
+
+    # Methodology
+    st.markdown('<div class="section-label">Methodology</div>', unsafe_allow_html=True)
+    m_cols = st.columns(4)
+    methods = [
+        ("📥", "Data Collection",
+         "InsideAirbnb listings, calendar, and GeoJSON files for 5 US cities (Sep–Nov 2025). Zillow ZORI city-level rent index (2015–2026). Automated pipeline with dynamic date detection."),
+        ("🔧", "Feature Engineering",
+         "Neighborhood-level aggregation of 112,892 listings. Composite activity score combining listing density (40%), occupancy (40%), and commercial host rate (20%), normalized within each city."),
+        ("📊", "Analysis",
+         "City-level rent growth vs Airbnb occupancy comparison. Neighborhood activity mapping using GeoJSON choropleth. Zillow ZORI rent trajectory analysis with COVID and post-pandemic annotations."),
+        ("🤖", "Modeling",
+         "LightGBM regressor with early stopping to predict neighborhood activity scores. SHAP values for feature interpretability. Train/test split 80/20 across 596 neighborhoods."),
+    ]
+    for i, (icon, title, text) in enumerate(methods):
+        with m_cols[i]:
+            st.markdown(f"""
+            <div class="finding-card animate-in" style="animation-delay:{i*0.1}s;height:100%">
+                <div style="font-size:1.3rem;margin-bottom:0.4rem">{icon}</div>
+                <div style="font-weight:600;color:#fff;margin-bottom:0.4rem;
+                            font-size:0.82rem">{title}</div>
+                <div class="finding-text" style="font-size:0.8rem">{text}</div>
+            </div>
+            """, unsafe_allow_html=True)
+
+    st.divider()
+
+    # Key findings
+    st.markdown('<div class="section-label">Key Findings</div>', unsafe_allow_html=True)
+    f_cols = st.columns(2)
+    findings = [
+        ("🔍", "No simple Airbnb → rent relationship",
+         "At the city level, higher Airbnb occupancy does not reliably predict higher rent growth. Chicago has the highest rent growth (17.5%) despite a smaller Airbnb market than LA or NYC. Austin saw rents fall 10.1% despite moderate Airbnb activity — driven by a housing supply boom that added tens of thousands of units in 2021–2023."),
+        ("📍", "Activity clusters in specific neighborhoods",
+         "Airbnb pressure is highly concentrated. Seattle's Belltown and Broadway, NYC's Bedford-Stuyvesant and Midtown, and LA's Long Beach and Hollywood account for a disproportionate share of activity. High-activity neighborhoods are not always tourist zones — gentrifying residential areas are increasingly affected."),
+        ("🏢", "Commercial hosts dominate everywhere",
+         "Across all 5 cities, more than 50% of listings come from hosts with multiple properties. Chicago leads at 69%. This finding challenges the 'sharing economy' narrative — short-term rental markets are increasingly run by professional operators, not individuals sharing spare rooms."),
+        ("📋", "Licensing compliance is low",
+         "Despite regulations in NYC, LA, Chicago, and Seattle, licensing compliance varies dramatically — from 83% in Seattle to just 15% in NYC and 0% in Austin. Regulations without enforcement appear to have limited effect on market activity."),
+        ("🤖", "Neighborhood characteristics > city identity",
+         "The LightGBM model (R²=0.708) found that occupancy rate and commercial host percentage are the strongest predictors of neighborhood activity — while which city a neighborhood is in ranks last. Local dynamics matter more than city-level policy in determining where Airbnb concentrates."),
+        ("⚠️", "Data limitations",
+         "InsideAirbnb removed price data from all US cities in late 2025, limiting price-based analysis. Austin uses postal codes rather than neighborhood names, reducing geographic interpretability. City-level Zillow data cannot capture neighborhood-level rent dynamics where the most interesting variation likely exists."),
+    ]
+    for i in range(0, len(findings), 2):
+        cols = st.columns(2)
+        for j, (icon, title, text) in enumerate(findings[i:i+2]):
+            with cols[j]:
+                st.markdown(f"""
+                <div class="metric-card animate-in" 
+                     style="animation-delay:{i*0.05+j*0.1}s;margin-bottom:0.8rem">
+                    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.5rem">
+                        <span style="font-size:1.2rem">{icon}</span>
+                        <span style="font-weight:600;color:#fff;font-size:0.88rem">{title}</span>
+                    </div>
+                    <div class="finding-text">{text}</div>
+                </div>
+                """, unsafe_allow_html=True)
+
+    st.divider()
+
+    # Future perspectives
+    st.markdown('<div class="section-label">Future Directions</div>', unsafe_allow_html=True)
+    fp_cols = st.columns(3)
+    future = [
+        ("🗺️", "Neighborhood-level rent data",
+         "ZIP-code or neighborhood-level rent data (e.g. from HUD, Apartment List, or CoStar) would allow direct correlation between Airbnb activity scores and local rent changes — the core analysis this project points toward but cannot fully execute with city-level ZORI."),
+        ("🏗️", "Housing supply controls",
+         "Adding building permit data and new construction rates as control variables would help isolate the Airbnb effect from supply-side dynamics — the Austin case demonstrates why this matters. A city adding housing fast can absorb STR pressure that would otherwise drive rents up."),
+        ("⏳", "Longitudinal analysis",
+         "Tracking the same neighborhoods across multiple InsideAirbnb snapshots over 3–5 years would reveal whether activity is rising or falling, and whether regulatory interventions (like NYC's 2023 law) have measurable effects on neighborhood-level pressure over time."),
+        ("🌍", "International expansion",
+         "Extending the analysis to cities like Barcelona, Amsterdam, and London — where STR regulations are stricter and longer-established — would provide stronger natural experiments for testing whether regulation actually reduces housing pressure."),
+        ("🧠", "Richer modeling",
+         "Adding proximity to tourist attractions, transit access, and zoning data as features could improve the model's R² beyond 0.708 and provide more actionable policy insights. The current model's inability to predict high-activity neighborhoods well likely reflects missing geographic features."),
+        ("📱", "Real-time monitoring",
+         "Automating the data pipeline to refresh monthly with new InsideAirbnb snapshots and Zillow data would turn this into a live monitoring tool — useful for city planners, journalists, and housing advocates tracking the evolving impact of short-term rentals."),
+    ]
+    for i in range(0, len(future), 3):
+        cols = st.columns(3)
+        for j, (icon, title, text) in enumerate(future[i:i+3]):
+            with cols[j]:
+                st.markdown(f"""
+                <div class="finding-card animate-in"
+                     style="animation-delay:{i*0.05+j*0.1}s;margin-bottom:0.8rem">
+                    <div style="font-size:1.3rem;margin-bottom:0.4rem">{icon}</div>
+                    <div style="font-weight:600;color:#fff;margin-bottom:0.4rem;
+                                font-size:0.82rem">{title}</div>
+                    <div class="finding-text" style="font-size:0.8rem">{text}</div>
+                </div>
+                """, unsafe_allow_html=True)
+
+    st.divider()
+
+    # Data sources
+    st.markdown('<div class="section-label">Data Sources</div>', unsafe_allow_html=True)
+
+    src1, src2, src3, src4 = st.columns(4)
+
+    sources = [
+        (src1, "Airbnb Data", "InsideAirbnb", "insideairbnb.com · Sep–Nov 2025", "Listings, calendar, GeoJSON for 5 US cities"),
+        (src2, "Rent Data", "Zillow Research", "zillow.com/research · 2015–2026", "ZORI City-Level Rent Index"),
+        (src3, "Tools & Libraries", "Python Stack", "Pandas · GeoPandas · LightGBM", "SHAP · Plotly · Streamlit · BeautifulSoup"),
+        (src4, "Coverage", "5 US Cities", "112,892 listings · 596 neighborhoods", "11 years of rent history"),
+    ]
+
+    for col, label, title, sub1, sub2 in sources:
+        with col:
+            st.markdown(
+                f"<div class='finding-card'>"
+                f"<div style='font-size:0.7rem;text-transform:uppercase;letter-spacing:0.12em;"
+                f"color:#ff6b6b;margin-bottom:0.4rem;font-weight:600'>{label}</div>"
+                f"<div style='color:#e0e8f0;font-size:0.88rem;font-weight:600;"
+                f"margin-bottom:0.3rem'>{title}</div>"
+                f"<div style='color:#8ba3bc;font-size:0.78rem;margin-bottom:0.2rem'>{sub1}</div>"
+                f"<div style='color:#8ba3bc;font-size:0.78rem'>{sub2}</div>"
+                f"</div>",
+                unsafe_allow_html=True
+            )
+
+with tab6:
+    col_left, col_right = st.columns([3, 2])
+
+    with col_left:
+        st.markdown("""
+        <div class="animate-in">
+            <div class="hero-eyebrow">About the Author</div>
+            <div style="font-family:'Playfair Display',serif;font-size:2.2rem;
+                        color:#ffffff;line-height:1.1;margin-bottom:0.5rem">
+                Christine Li
+            </div>
+            <div style="color:#ff6b6b;font-size:0.85rem;margin-bottom:1.2rem;font-weight:500">
+                Statistics @ UC Davis · Master of Analytics @ UC Berkeley
+            </div>
+            <div style="font-size:0.92rem;color:#8ba3bc;line-height:1.8;
+                        max-width:560px;margin-bottom:1.5rem">
+                I build data projects at the intersection of rigorous analysis and 
+                product thinking. This dashboard is one of two solo portfolio projects 
+                I built from scratch — end-to-end data pipeline, modeling, and a 
+                product-quality interface — to demonstrate what I can do independently.
+                <br><br>
+                Open to <strong style="color:#e0e8f0">Data Analytics</strong>, 
+                <strong style="color:#e0e8f0">AI Product</strong>, and 
+                <strong style="color:#e0e8f0">Machine Learning</strong> roles — 
+                internships, new grad, and full-time opportunities.
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+
+        # Links
+        st.markdown("""
+        <div style="display:flex;gap:0.8rem;flex-wrap:wrap;margin-bottom:2rem">
+            <a href="https://github.com/christinel012" target="_blank"
+               style="background:linear-gradient(135deg,#152236,#1a2d45);
+                      border:1px solid rgba(255,255,255,0.1);border-radius:10px;
+                      padding:0.55rem 1.1rem;color:#e0e8f0;text-decoration:none;
+                      font-size:0.82rem;font-weight:500">⌥ GitHub</a>
+            <a href="https://www.linkedin.com/in/christineli012" target="_blank"
+               style="background:linear-gradient(135deg,#152236,#1a2d45);
+                      border:1px solid rgba(255,255,255,0.1);border-radius:10px;
+                      padding:0.55rem 1.1rem;color:#e0e8f0;text-decoration:none;
+                      font-size:0.82rem;font-weight:500">in LinkedIn</a>
+            <a href="mailto:ytingli0210@gmail.com"
+               style="background:linear-gradient(135deg,#152236,#1a2d45);
+                      border:1px solid rgba(255,255,255,0.1);border-radius:10px;
+                      padding:0.55rem 1.1rem;color:#e0e8f0;text-decoration:none;
+                      font-size:0.82rem;font-weight:500">✉ Email</a>
+        </div>
+        """, unsafe_allow_html=True)
+
+        st.markdown('<div class="section-label">This Project</div>', unsafe_allow_html=True)
+        st.markdown("""
+        <div class="finding-card animate-in">
+            <div class="finding-text">
+                Built solo over ~2 weeks. Covers automated data ingestion from InsideAirbnb 
+                and Zillow, neighborhood-level feature engineering across 596 neighborhoods, 
+                LightGBM modeling with SHAP interpretability (R²=0.708), and this Streamlit 
+                dashboard. Full source code on GitHub.
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with col_right:
+        st.markdown('<div class="section-label">Skills</div>', unsafe_allow_html=True)
+
+        skill_groups = [
+            ("Languages", ["Python", "R", "SQL", "MATLAB"]),
+            ("ML & Modeling", ["LightGBM", "XGBoost", "SHAP", "LSTM", "Scikit-learn"]),
+            ("Data & Viz", ["Pandas", "GeoPandas", "Plotly", "Streamlit"]),
+            ("Web", ["React", "JavaScript", "Leaflet.js"]),
+            ("Tools", ["Git", "GitHub", "Jupyter"]),
+        ]
+
+        for i, (group, skills) in enumerate(skill_groups):
+            pills = ''.join(
+                f"<span style='background:rgba(255,107,107,0.12);"
+                f"border:1px solid rgba(255,107,107,0.2);border-radius:20px;"
+                f"padding:0.2rem 0.6rem;font-size:0.73rem;color:#e0e8f0;"
+                f"display:inline-block;margin:0.15rem'>{s}</span>"
+                for s in skills
+            )
+            st.markdown(
+                f"<div class='metric-card animate-in' style='animation-delay:{i*0.08}s;"
+                f"margin-bottom:0.5rem;padding:0.8rem 1rem'>"
+                f"<div style='font-size:0.65rem;text-transform:uppercase;letter-spacing:0.1em;"
+                f"color:#8ba3bc;margin-bottom:0.4rem'>{group}</div>"
+                f"<div>{pills}</div></div>",
+                unsafe_allow_html=True
+            )
+
+        st.markdown(
+            "<div style='margin-top:1rem;padding:0.8rem 1rem;"
+            "background:linear-gradient(135deg,#152236,#1a2d45);"
+            "border:1px solid rgba(255,255,255,0.06);border-radius:12px;"
+            "font-size:0.8rem;color:#8ba3bc;line-height:1.7'>"
+            "🎓 GPA 3.95 · Dean's Honor List<br>"
+            "📜 NVIDIA Deep Learning Certification<br>"
+            "🌏 Mandarin (Native) · English (Fluent)<br>"
+            "✈️ Traveling · 📷 Photography · 🍞 Baking"
+            "</div>",
+            unsafe_allow_html=True
+        )
